@@ -1,0 +1,22 @@
+button {
+    display: block;
+    margin: auto;
+    /*style for all the buttons*/
+}
+
+.theButton {
+    /*style for a specific button*/
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1.7px;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.theButton:hover {
+    background-color: darkblue;
+}
